@@ -75,20 +75,13 @@ def saveImg():
     _, frame4 = cap4.read()
     #print("Writing pictures to " + path)
     try:
-        if(os.path.exists(path + "/ftest1.png")==false):
-           # cv2.imwrite(path+"/ftest0.png",frame0)
+
             cv2.imwrite(path+"/ftest1.png",frame1)
             cv2.imwrite(path+"/ftest2.png",frame2)
             cv2.imwrite(path+"/ftest3.png",frame3)
             cv2.imwrite(path+"/ftest4.png",frame4)
             print("images taken succesfully, please scan next barcode")
-        else:
-             # cv2.imwrite(path+"/ftest0.png",frame0)
-            cv2.imwrite(path+"/ftest1v2.png",frame1)
-            cv2.imwrite(path+"/ftest2v2.png",frame2)
-            cv2.imwrite(path+"/ftest3v2.png",frame3)
-            cv2.imwrite(path+"/ftest4v2.png",frame4)
-            print("images taken succesfully, please scan next barcode")
+
         
     except:
         print("error saving pictures, please contact IT")
