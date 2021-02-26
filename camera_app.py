@@ -107,7 +107,7 @@ def scan():
     global path
     print("Scan barcode")
     scanned = input()
-    path = "C:/Users/u333271/Desktop/" + scanned
+    path = "C:/Users/####/Desktop/" + scanned
     try:
         os.mkdir(path)
 
@@ -121,7 +121,7 @@ def scan2():
     global path
     s = e.get()
     print("Scan barcode")
-    path = "C:/Users/u333271/Desktop/" + s
+    path = "C:/Users/####/Desktop/" + s
     try:
         os.mkdir(path)
 
