@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 
 #Set up GUI
 window = tk.Tk()  #Makes main window
-window.wm_title("Danfoss Camera App")
+window.wm_title("Camera App")
 window.config(background="#FFFFFF")
 
 #Graphics window
